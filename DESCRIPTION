@@ -1,0 +1,15 @@
+Package: percentile
+Title: Calculates percentile depending if the best is 'max' or 'min'
+Version: 0.1.0
+Authors@R: 
+    person("David", "Segovia", , "dsegovia@catalystcalifornia.org", role = c("cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This is a handy package that stores the percentile functions depending if the best is 'max' or 'min.'
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

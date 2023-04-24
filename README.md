@@ -12,7 +12,9 @@ The goal of percentile is to ...
 You can install the development version of percentile like so:
 
 ``` r
-install.packages("percentile")
+remotes::install_github("davidseg1997/percentile")
+library(percentile) # percentile package created by RDA
+
 ```
 
 ## Example

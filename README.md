@@ -33,6 +33,10 @@ data <- data.frame (county_id= c("06037", "06001", "06113", "06101", "06091"),
 
 ```
 
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
 
 Now let's calculate the percentile of the total rate. It is as simple as putting the total_rate inside the parenthesis.
 
@@ -41,6 +45,11 @@ data$performance_pctile <-  p_rank_max(data$total_rate)
   
 
 ```
+
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
 
 Now we have two separate columns that calculates the disparity percentile and performance percentile used in our Race-Counts website!
 

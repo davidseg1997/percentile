@@ -29,17 +29,17 @@ Suppose we have these values:
 
 data <- data.frame (county_id= c("06037", "06001", "06113", "06101", "06091"),
                     county_name = c("Los Angeles", "Alameda", "Yolo", "Sutter", "Sierra"),
-                    total_rate = c("235.70", "440.03", "248.99", "182.93", "192.55"))
+                    total_rate = c("35.70", "40.03", "48.99", "82.93", "92.55"))
 
 ```
 
 county_id     | county_name   | total_rate    |
 ------------- | ------------- | ------------- |
-06037         | Los Angeles   | 235.70        |
-06001         | Alameda       | 440.03        |
-06113         | Yolo          | 248.99        |
-06101         | Sutter        | 182.93        |
-06091         | Sierra        | 192.55        |
+06037         | Los Angeles   | 35.70         |
+06001         | Alameda       | 40.03         |
+06113         | Yolo          | 48.99         |
+06101         | Sutter        | 82.93         |
+06091         | Sierra        | 92.55         |
 
 
 Now let's calculate the percentile of the total rate. It is as simple as putting the total_rate inside the parenthesis.

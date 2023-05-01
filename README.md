@@ -52,11 +52,11 @@ data$performance_pctile <-  p_rank_max(data$total_rate)
 
 county_id     | county_name   | total_rate    | performance_pctile |
 ------------- | ------------- | ------------- | -------------      |
-06037         | Los Angeles   | 235.70        | 60                 |
-06001         | Alameda       | 440.03        | 100                |
-06113         | Yolo          | 248.99        | 80                 |
-06101         | Sutter        | 182.93        | 20                 |
-06091         | Sierra        | 192.55        | 40                 |
+06037         | Los Angeles   | 35.70        | 60                  |
+06001         | Alameda       | 40.03        | 100                 |
+06113         | Yolo          | 48.99        | 80                  |
+06101         | Sutter        | 82.93        | 20                  |
+06091         | Sierra        | 92.55        | 40                  |
 
 
 Now we have a column for the performance percentile.

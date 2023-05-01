@@ -33,10 +33,14 @@ data <- data.frame (county_id= c("06037", "06001", "06113", "06101", "06091"),
 
 ```
 
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+county_id     | county_name   | total_rate    |
+------------- | ------------- | ------------- |
+06037         | Los Angeles   | Content Cell  |
+06001         | Alameda       | Content Cell  |
+06113         | Yolo          | Content Cell  |
+06101         | Sutter        | Content Cell  |
+06091         | Sierra        | Content Cell  |
+
 
 Now let's calculate the percentile of the total rate. It is as simple as putting the total_rate inside the parenthesis.
 

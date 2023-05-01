@@ -17,4 +17,3 @@ p_rank_max <- function(a){
   r[is.na(a)]<-NA
   r
 }
-

@@ -29,17 +29,18 @@ Suppose we have these values:
 
 data <- data.frame (county_id= c("06037", "06001", "06113", "06101", "06091"),
                     county_name = c("Los Angeles", "Alameda", "Yolo", "Sutter", "Sierra"),
-                    asbest = c("max"),
-                    index_of_disparity = c("35.42", "17.05", "22.04", "25.03", "47.04"),
                     total_rate = c("235.70", "440.03", "248.99", "182.93", "192.55"))
 
 ```
 
-Now let's calculate the percentile of both the index of disparity and total rate. The ifelse uses the p_rank_max function() if the best is 'Max.' Otherwise, it uses the p_rank_min() function. 
+```{r}
+data
+```
+
+Now let's calculate the percentile of the total rate. It is as simple as putting the total_rate inside the parenthesis.
 
 ```{r}
- data$disparity_pctile <- p_rank_max(data$index_of_disparity)
-  data$performance_pctile <- ifelse(data$asbest == 'max', p_rank_max(data$total_rate), p_rank_min(data$total_rate))
+  data$performance_pctile <-  p_rank_max(data$total_rate)
   
 
 ```

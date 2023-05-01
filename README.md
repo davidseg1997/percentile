@@ -35,11 +35,11 @@ data <- data.frame (county_id= c("06037", "06001", "06113", "06101", "06091"),
 
 county_id     | county_name   | total_rate    |
 ------------- | ------------- | ------------- |
-06037         | Los Angeles   | 235.70 |
-06001         | Alameda       | 440.03 |
-06113         | Yolo          | 248.99 |
-06101         | Sutter        | 182.93  |
-06091         | Sierra        | 192.55  |
+06037         | Los Angeles   | 235.70        |
+06001         | Alameda       | 440.03        |
+06113         | Yolo          | 248.99        |
+06101         | Sutter        | 182.93        |
+06091         | Sierra        | 192.55        |
 
 
 Now let's calculate the percentile of the total rate. It is as simple as putting the total_rate inside the parenthesis.
@@ -50,12 +50,16 @@ data$performance_pctile <-  p_rank_max(data$total_rate)
 
 ```
 
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+county_id     | county_name   | total_rate    | performance_pctile |
+------------- | ------------- | ------------- | -------------      |
+06037         | Los Angeles   | 235.70        | 60                 |
+06001         | Alameda       | 440.03        | 100                |
+06113         | Yolo          | 248.99        | 80                 |
+06101         | Sutter        | 182.93        | 20                 |
+06091         | Sierra        | 192.55        | 40                 |
 
-Now we have two separate columns that calculates the disparity percentile and performance percentile used in our Race-Counts website!
+
+Now we a column for the performance percentile- though we haven't moved forward with percentile as we currently use a Z-score methodology.
 
 
 

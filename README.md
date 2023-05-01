@@ -21,7 +21,7 @@ library(percentile) # percentile package created by RDA
 
 This is a personal package we use for projects like the Student Equity Need Index score and Race Counts. It contains some helpful functions that calculates the percentile depending if the best rate is the maximum or the minimum rate.
 
-For example, let's suppose we are working with the Perception of Safety indicator from Crime & Justice Issue Area. This is an indicator where we want the highest number of people to report feeling safe in their neighborhood all or most of the time per 100 adults. so, the 'best' here would be minimum. 
+For example, let's suppose we are working with the Perception of Safety indicator from Crime & Justice Issue Area. This is an indicator where we want the highest number of people to report feeling safe in their neighborhood all or most of the time per 100 adults. so, the 'best' here would be the maximum. 
 
 Suppose we have these values: 
 
@@ -33,9 +33,6 @@ data <- data.frame (county_id= c("06037", "06001", "06113", "06101", "06091"),
 
 ```
 
-```{r}
-data
-```
 
 Now let's calculate the percentile of the total rate. It is as simple as putting the total_rate inside the parenthesis.
 
@@ -45,9 +42,6 @@ data$performance_pctile <-  p_rank_max(data$total_rate)
 
 ```
 
-```{r}
-data
-```
 
 Now we have two separate columns that calculates the disparity percentile and performance percentile used in our Race-Counts website!
 

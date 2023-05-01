@@ -5,7 +5,7 @@
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
-The goal of percentile is to ...
+The goal of percentile is to calculate percentile for given indicators in order to rank the unit of analysis (counties, schools). For example, which county has the highest perception of safety or which school has the highest SENI Score, therefore considered a higher need school.
 
 ## Installation
 

@@ -59,7 +59,7 @@ county_id     | county_name   | total_rate    | performance_pctile |
 06091         | Sierra        | 192.55        | 40                 |
 
 
-Now we a column for the performance percentile.
+Now we have a column for the performance percentile.
 
 
 

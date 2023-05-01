@@ -59,7 +59,7 @@ county_id     | county_name   | total_rate    | performance_pctile |
 06091         | Sierra        | 192.55        | 40                 |
 
 
-Now we a column for the performance percentile- though we haven't moved forward with percentile as we currently use a Z-score methodology.
+Now we a column for the performance percentile.
 
 
 

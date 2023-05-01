@@ -40,7 +40,7 @@ data
 Now let's calculate the percentile of the total rate. It is as simple as putting the total_rate inside the parenthesis.
 
 ```{r}
-  data$performance_pctile <-  p_rank_max(data$total_rate)
+data$performance_pctile <-  p_rank_max(data$total_rate)
   
 
 ```
